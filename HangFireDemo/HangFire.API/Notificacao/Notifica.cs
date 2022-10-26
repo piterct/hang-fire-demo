@@ -11,5 +11,11 @@ namespace HangFire.API.Notificacao
             Console.WriteLine("Notifiquei");
             return await  Task.FromResult(true);
         }
+
+        public async Task<bool> NotificaPorMinuto()
+        {
+            Console.WriteLine("Notifiquei");
+            return await Task.FromResult(true);
+        }
     }
 }

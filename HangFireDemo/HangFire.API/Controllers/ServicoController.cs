@@ -40,5 +40,21 @@ namespace HangFire.API.Controllers
 
             return Ok();
         }
+
+        [HttpGet("rodarSempre")]
+        public IActionResult RodarSempre()
+        {
+            RecurringJob.AddOrUpdate(() => _notificacao.NotificaOk(), "*/2 * * * *");
+
+            return Ok();
+        }
+
+        [HttpGet("rodarSemprePorMinuto")]
+        public IActionResult RodarSemprePorMinuto()
+        {
+            RecurringJob.AddOrUpdate(() => _notificacao.NotificaPorMinuto(), Cron.Minutely);
+
+            return Ok();
+        }
     }
 }
