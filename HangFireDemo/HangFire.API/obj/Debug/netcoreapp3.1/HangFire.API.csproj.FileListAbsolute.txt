@@ -41,3 +41,8 @@ D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\obj\Debug\netcoreapp3.1\HangFire.API.MvcApplicationPartsAssemblyInfo.cs

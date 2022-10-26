@@ -1,5 +1,7 @@
 using Hangfire;
 using Hangfire.SqlServer;
+using HangFire.API.Interfaces;
+using HangFire.API.Notificacao;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,6 +45,17 @@ namespace HangFire.API
                     DisableGlobalLocks = true
                 }));
 
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "HangFire"
+                });
+            });
+
+            services.AddScoped<INotificacao, Notifica>();
+
             // Add the processing server as IHostedService
             services.AddHangfireServer();
         }
@@ -52,7 +66,18 @@ namespace HangFire.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
             }
+
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+
 
             app.UseHangfireDashboard();
 

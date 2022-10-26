@@ -5,6 +5,6 @@ namespace HangFire.API.Interfaces
 {
     public interface INotificacao
     {
-        Task<bool> Notifica();
+        Task<bool> NotificaOk();
     }
 }

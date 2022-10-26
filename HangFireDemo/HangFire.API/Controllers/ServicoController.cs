@@ -17,7 +17,7 @@ namespace HangFire.API.Controllers
         [HttpGet("executarUmaVez")]
         public IActionResult ExecutaUmavez()
         {
-            var jobFireForget = BackgroundJob.Enqueue(() => _notificacao.Notifica());
+            var jobFireForget = BackgroundJob.Enqueue(() => _notificacao.NotificaOk());
 
             return Ok();
         }
