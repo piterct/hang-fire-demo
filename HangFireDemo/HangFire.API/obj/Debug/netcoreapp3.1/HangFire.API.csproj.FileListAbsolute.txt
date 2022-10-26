@@ -34,3 +34,10 @@ D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\obj\Debug\netcoreapp3.1\HangFire.API.dll
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\obj\Debug\netcoreapp3.1\HangFire.API.pdb
 D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\obj\Debug\netcoreapp3.1\HangFire.API.genruntimeconfig.cache
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\Hangfire.SqlServer.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Meus Documentos\Documentos\Repositorios\hang-fire-demo\HangFireDemo\HangFire.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll

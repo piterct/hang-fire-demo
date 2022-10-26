@@ -48,6 +48,14 @@
             "Hangfire.AspNetCore": {
               "target": "Package",
               "version": "[1.7.31, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.31, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.31, )"
             }
           },
           "imports": [
