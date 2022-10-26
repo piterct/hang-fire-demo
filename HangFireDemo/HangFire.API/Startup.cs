@@ -57,7 +57,11 @@ namespace HangFire.API
             services.AddScoped<INotificacao, Notifica>();
 
             // Add the processing server as IHostedService
-            services.AddHangfireServer();
+            services.AddHangfireServer(options =>
+            {
+                options.WorkerCount = 30;
+            }
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
