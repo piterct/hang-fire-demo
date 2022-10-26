@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9MsOOt7njV8fEVjIt9U/GnuDp9QJVz2UyvqKvbGg1gSjZd+kCqTfubXGFSA45P42jSaSAYlz8/CiUKenJPjeXQ==",
+  "dgSpecHash": "1xG06cIxVqBsogMNvSEIWRwNrkRejCnLhBEYlA5q/Bn1vooHxU0zWx08VrnpD8xMBIFuGX23psBOrhEAc4OLkQ==",
   "success": true,
   "projectFilePath": "D:\\Meus Documentos\\Documentos\\Repositorios\\hang-fire-demo\\HangFireDemo\\HangFire.API\\HangFire.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\hangfire.aspnetcore\\1.7.31\\hangfire.aspnetcore.1.7.31.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\hangfire.core\\1.7.31\\hangfire.core.1.7.31.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
