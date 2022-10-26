@@ -30,5 +30,15 @@ namespace HangFire.API.Controllers
 
             return Ok();
         }
+
+        [HttpGet("rodarAposTempoContinuo")]
+        public IActionResult RodarAposTempoContinuo()
+        {
+            var jobDelayed = BackgroundJob.Schedule(() => _notificacao.NotificaOk(), TimeSpan.FromSeconds(10));
+
+            BackgroundJob.ContinueJobWith(jobDelayed, () => _notificacao.NotificaOk());
+
+            return Ok();
+        }
     }
 }
